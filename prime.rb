@@ -1,4 +1,13 @@
 # Add  code here!
 def prime?(integer)
-  if integer.iseven?
+  var = true
+  if integer.even? && integer > 2
+    false
+  elsif integer.odd?
+    if integer % 3 == 0 || integer % 5 == 0
+      false
+    end
+  end
+  
+  return var
 end
