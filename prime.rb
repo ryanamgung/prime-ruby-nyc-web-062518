@@ -1,5 +1,6 @@
 # Add  code here!
 def prime?(integer)
   if integer > 1
-    range(2..integer)
+    range(2..integer).to_a
+    range.to
 end
