@@ -4,7 +4,9 @@ def prime?(integer)
     false
   elsif integer == 2 || integer == 3
     true
-  else (2..integer/2).none? do |divisor|
-    integer % divisor == 0
+  else 
+    (2..integer/2).none? do |divisor|
+      integer % divisor == 0
+    end
   end
 end
