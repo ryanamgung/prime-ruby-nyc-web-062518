@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(integer)
   var = true
-  if integer.even? && integer > 2
+  if (integer.even? && integer > 2) 
     false
   elsif integer <= 1
     false
