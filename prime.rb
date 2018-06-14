@@ -4,5 +4,7 @@ def prime?(integer)
     range(2..integer).to_a
     range.none? do |divisor|
       number % divisor == 0
-    end
+  else
+    false
+  end
 end
